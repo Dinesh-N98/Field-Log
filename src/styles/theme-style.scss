@@ -1,0 +1,35 @@
+// ==========================================================================
+// 1. CEYLINCO BRAND COLOR DEFINITIONS
+// ==========================================================================
+$ceylinco-yellow-600: #FFCB05; // Vibrant Yellow Brand Accent
+$ceylinco-red-600:    #C10230; // Cherry Red Brand Base
+$ceylinco-neutral-50:  #F5F5F4; // Page background
+$ceylinco-neutral-900: #0A0A0A; // Dark Primary Text
+
+$ceylinco-success: #1F8A3B;
+$ceylinco-warning: #C8720A;
+$ceylinco-error:   #9C2B2B;
+$ceylinco-info:    #2C6FBB;
+
+// ==========================================================================
+// 2. BOOTSTRAP THEME COLOR OVERRIDES
+// ==========================================================================
+// This maps CEYLINCO brand colors directly into Bootstrap's global theme map.
+// All generated buttons, utilities, and backgrounds will compile with these colors.
+$primary:       $ceylinco-red-600;     // Core CTAs (e.g., .btn-primary)
+$secondary:     $ceylinco-yellow-600;  // Brand Accent (e.g., .btn-secondary, .bg-secondary)
+$body-bg:       $ceylinco-neutral-50;  // Light page background
+$body-color:    $ceylinco-neutral-900; // Text color
+
+// Map semantic status colors
+$success:       $ceylinco-success;
+$warning:       $ceylinco-warning;
+$danger:        $ceylinco-error;
+$info:          $ceylinco-info;
+
+// ==========================================================================
+// 3. IMPORT BOOTSTRAP
+// ==========================================================================
+// Compile everything using CEYLINCO brand colors
+// leaving all other elements (grid, typography, spacing, border-radii) as default.
+@import "bootstrap/scss/bootstrap";

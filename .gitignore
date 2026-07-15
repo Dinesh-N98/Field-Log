@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+
+
+
+
+
+//(Note: When you initialize your backend in the other root directory, 
+//ensure its .gitignore includes the Spring Boot target/ build directory as well )
