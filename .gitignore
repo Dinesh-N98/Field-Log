@@ -1,10 +1,19 @@
 node_modules/
 dist/
+.vite/
+*.local
 .env
+.env.*
+coverage/
+*.log
+
+# Optional local editor files
+.vscode/
+.idea/
 
 
 
 
 
-//(Note: When you initialize your backend in the other root directory, 
-//ensure its .gitignore includes the Spring Boot target/ build directory as well )
+# (Backend Note: When you initialize your backend in the other root directory, 
+# ensure its .gitignore includes the Spring Boot target/ build directory as well )
